@@ -7,7 +7,7 @@ Generate JSON system call table from Linux source. Hosted at https://syscalls64.
 * Download and extract the Linux kernel sources (https://www.kernel.org)
 * Move the extraced folder to `/usr/src/linux-$VERSION`
 * `chmod +x prepare-files.sh && ./prepare-files.sh`
-* :coffee: or :beer:
+* python generate_table.py
 
 ## Web
 * uses [jQuery DataTables](http://datatables.net/) to pull JSON file and format table
@@ -18,4 +18,5 @@ Generate JSON system call table from Linux source. Hosted at https://syscalls64.
 Generated from Linux kernel 4.10
 
 ## Contributors
+* Vivek Pandey (https://github.com/thevivekpandey)
 * Paolo Stivanin (https://github.com/paolostivanin)
